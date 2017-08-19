@@ -1,2 +1,2 @@
 # color-shape-detection
-python
+opencv color detection blob detection is used to detect bugs. dark red ellipse represent bug.
