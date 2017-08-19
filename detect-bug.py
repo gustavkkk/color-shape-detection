@@ -40,7 +40,7 @@ params.filterBySize = True#
 params.minSize = 10
 '''
 
-path, fname = os.path.split(os.path.realpath(__file__))
+path, fname = os.path.split(os.path.realpath("__file__"))
 image_dir = path + '\images'
 out_dir = path + '\out'
 
@@ -92,4 +92,3 @@ for img_fn in os.listdir(image_dir):
     #cv2.waitKey(0)
     '''
     cv2.imwrite(out_dir + "\\" + img_fn,im_with_keypoints)
-
