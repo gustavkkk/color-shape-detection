@@ -6,4 +6,4 @@ opencv color detection and blob detection is used to detect bugs. dark red ellip
     cd color-shape-detection-master
     python detect-bug.py
 # Result
-![known](https://github.com/gustavkkk/color-shape-detection/blob/master/1.png)
+![known](https://github.com/gustavkkk/color-shape-detection/blob/master/1.jpg)
